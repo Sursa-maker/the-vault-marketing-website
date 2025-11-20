@@ -52,7 +52,7 @@ export function Footer() {
               </li>
              <li>
                 <a
-                  href="/public/TheVaultBrochure.pdf"
+                  href="/TheVault.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"

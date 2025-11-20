@@ -14,41 +14,48 @@ const modules = [
     title: "Admin & Role-Based Access",
     description: "Secure and flexible access control with multiple user types and tailored permissions.",
   },
-    {
-    number: "3",
-    icon: Truck,
-    title: "Inbound & Outbound Operations",
-    description:
-      "Manage end-to-end warehouse flow—from receiving goods to dispatching deliveries—with unified tracking, scheduling, and process automation.",
-  },
+     {
+  number: "3",
+  icon: Package,
+  title: "Inbound Management",
+  description:
+    "Seamless intake process with ASN support and automatic item tracking and inspection.",
+},
+{
+  number: "4",
+  icon: Truck,
+  title: "Outbound & Delivery",
+  description:
+    "Unified platform for scheduling, route optimization, and real-time delivery tracking to ensure smooth dispatch operations.",
+},
   {
-    number: "4",
+    number: "5",
     icon: Settings,
     title: "Inventory Management",
     description: "Complete control over warehouse stock with live tracking and instant visibility.",
   },
   {
-    number: "5",
+    number: "6",
     icon: DollarSign,
     title: "Billing & Accounting",
     description: "Automated billing with QuickBooks integration for seamless financial operations.",
   },
   {
-    number: "6",
+    number: "7",
     icon: Calendar,
     title: "Self Scheduling Module",
     description:
       "Empower clients and internal teams to schedule pickups, deliveries, and tasks independently with smart automation.",
   },
   {
-    number: "7",
+    number: "8",
     icon: Route,
     title: "Routing Optimization",
     description:
       "Optimize routes automatically for faster deliveries, reduced fuel costs, and improved operational efficiency.",
   },
   {
-    number: "8",
+    number: "9",
     icon: LineChart,
     title: "Advanced Reporting",
     description:
