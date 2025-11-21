@@ -15,13 +15,13 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <Header />
       <Hero />
+      <About />
       <Why />
       <Features />
       <Modules />
       <Industries />
       <Integrations />
       <Resources />
-      <About />
       <CTA />
       <Footer />
     </main>

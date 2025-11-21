@@ -24,8 +24,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#modules" className="hover:text-white transition-colors">
-                  Modules
+                <a href="#segments" className="hover:text-white transition-colors">
+                  Segments
                 </a>
               </li>
               <li>

@@ -15,21 +15,6 @@ const industries = [
     title: "3PL Providers",
     description: "Manage multiple clients with custom pricing and automated billing.",
   },
-  {
-    icon: Warehouse,
-    title: "Warehousing & Distribution",
-    description: "Connect inbound, inventory control, and outbound in one intuitive dashboard.",
-  },
-  {
-    icon: Factory,
-    title: "Manufacturing & Supply",
-    description: "Track materials across multiple plants and ensure complete supply chain control.",
-  },
-  {
-    icon: Car,
-    title: "Automotive & Parts",
-    description: "Precision logistics for spare parts with component tracking and claim management.",
-  },
 ]
 
 export function Industries() {

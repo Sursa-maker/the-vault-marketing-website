@@ -4,20 +4,20 @@ import { useState } from "react"
 import { Menu, X } from "lucide-react"
 
 const navItems = [
+  { label: "About", href: "#about" },
   { label: "Why The Vault?", href: "#why" },
   { label: "Features", href: "#features" },
-  { label: "Modules", href: "#modules" },
+  { label: "Segments", href: "#segments" },
   { label: "Industries", href: "#industries" },
   { label: "Integration", href: "#integrations" },
   { label: "Resources", href: "#resources" },
-  { label: "About", href: "#about" },
 ]
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 shadow-[0_4px_20px_rgba(0,0,0,0.05)] bg-white/80 backdrop-blur-xl border-b border-gray-200/70">
+    <header className="sticky top-0 z-50 shadow-[0_4px_20px_rgba(0,0,0,0.05)] bg-white border-b border-gray-200/70">
 
       {/* Brand Pattern Background (Subtle) */}
       <div
